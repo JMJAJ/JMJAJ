@@ -1,6 +1,7 @@
-## Hi there! 👋 Welcome to my GitHub Profile!  
+## Hi there! 👋 Welcome to H3LL!
 
-I'm **JMJAJ**, a passionate developer, learner, and explorer in the vast world of programming and technology. 🚀  
+I'm **JMJAJ**, a passionate developer, learner, and explorer in the vast world of programming and technology. 🚀
+(Most things are private so it can look like inactive github acc kek)
 
 ### 🌟 About Me:
 - 🔭 **Currently Working On**:  
