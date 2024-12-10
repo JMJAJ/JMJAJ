@@ -1,3 +1,4 @@
+<div align="center">
 ## Hi there! 👋 Welcome to my GitHub Profile!  
 
 I'm **JMJAJ**, a passionate developer, learner, and explorer in the vast world of programming and technology. 🚀  
@@ -14,7 +15,6 @@ I'm **JMJAJ**, a passionate developer, learner, and explorer in the vast world o
 - 📫 **How to Reach Me**:  
   - Feel free to drop a message here on GitHub, or reach out via email!
 
-<div align="center">
 ---
 ### 💻 My Stats:
 ![JMJAJ's GitHub Stats](https://github-readme-stats.vercel.app/api?username=JMJAJ&show_icons=true&theme=vue-dark&hide_border=true&count_private=true)  
