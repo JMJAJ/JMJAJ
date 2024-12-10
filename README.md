@@ -1,3 +1,4 @@
+<div align="center">
 ## Hi there! 👋 Welcome to my GitHub Profile!  
 
 I'm **JMJAJ**, a passionate developer, learner, and explorer in the vast world of programming and technology. 🚀  
@@ -28,3 +29,4 @@ I'm **JMJAJ**, a passionate developer, learner, and explorer in the vast world o
 ![MinHook](https://img.shields.io/badge/MinHook-%2300C4A7.svg?style=flat-square&logo=code&logoColor=white)  
 ![Cheat Engine](https://img.shields.io/badge/Cheat%20Engine-%23FF6600.svg?style=flat-square&logo=gamepad&logoColor=white)  
 ![ImGui](https://img.shields.io/badge/ImGui-%2300599C.svg?style=flat-square&logo=c&logoColor=white)  
+</div>
