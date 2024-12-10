@@ -16,6 +16,7 @@ I'm **JMJAJ**, a passionate developer, learner, and explorer in the vast world o
 
 ---
 <div align="center">
+  
 ### 💻 My Stats:
 ![JMJAJ's GitHub Stats](https://github-readme-stats.vercel.app/api?username=JMJAJ&show_icons=true&theme=vue-dark&hide_border=true&count_private=true)  
 ![JMJAJ's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=JMJAJ&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)  
