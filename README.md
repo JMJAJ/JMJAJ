@@ -13,7 +13,7 @@ I'm **JMJAJ**, a passionate developer, learner, and explorer in the vast world o
   - Exploring **Cybersecurity** and enhancing my skills in **reverse engineering**.
 
 - 📫 **How to Reach Me**:  
-  - Feel free to drop a message here on GitHub, or reach out via email!
+  - Feel free to drop a message here on GitHub!
 
 ---
 <div align="center">
