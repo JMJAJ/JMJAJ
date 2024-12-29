@@ -2,8 +2,7 @@
 Breaking rules, breaking games, breaking everything.  
 
 - **What I Do**:  
-  - Game mods, SDKs, cheats, and stuff you probably shouldn’t ask about.  
-  - DirectX 11 magic and making things go *boom* (cringe asf).  
+  - Game mods, SDKs, cheats, and stuff you probably shouldn’t ask about.
 
 - **Learning**:  
   - Bending code with my mind and messing with security for fun.
