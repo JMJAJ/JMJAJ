@@ -6,7 +6,7 @@ Breaking rules, breaking games, breaking everything.
   - DirectX 11 magic and making things go *boom* (cringe asf).  
 
 - **Learning**:  
-  - Networks, bending code with my mind and messing with security for fun.
+  - Bending code with my mind and messing with security for fun.
 
 Don’t like it? Too bad.
 
