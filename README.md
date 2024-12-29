@@ -1,4 +1,4 @@
-# 👾 Welcome to My Abyss of **Jxint**
+# 👾 Welcome to The Abyss of **Jxint**
 Breaking rules, breaking games, breaking everything.  
 
 - **What I Do**:  
