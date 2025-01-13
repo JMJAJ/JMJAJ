@@ -1,20 +1,24 @@
-# 👾 Welcome lmao
-Breaking rules, breaking games, breaking everything.  
-
-- **What I Do**:  
-  - Game mods, SDKs, cheats, and stuff you probably shouldn’t ask about.
-
-- **Learning**:  
-  - Bending code with my mind and messing with security for fun.
-
-Don’t like it? Too bad.
-
----
-
-### GitHub Highlights:
 <div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=JMJAJ&show_icons=true&theme=vue-dark&hide_border=true&count_private=true)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=JMJAJ&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)  
-
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="3">
+          <img src="./jxint/metrics.classic.svg" alt="classic" />
+        </th>
+        <th>
+          <img src="./jxint/metrics.meteor.svg" alt="fullyear" />
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <img src="./jxint/metrics.notable.svg" alt="notable" />
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <img src="./jxint/metrics.plugin.isocalendar.fullyear.svg" alt="fullyear" />
+        </th>
+      </tr>
+    </thead>
+  </table>
 </div>
