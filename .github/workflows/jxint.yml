@@ -16,7 +16,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: jxint/metrics.classic.svg
-          user: Infer2
+          user: JMJAJ
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Rangoon
