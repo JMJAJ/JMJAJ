@@ -19,7 +19,7 @@ jobs:
           user: JMJAJ
           template: classic
           base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Rangoon
+          config_timezone: Europe/Berlin
           plugin_repositories: yes
           plugin_repositories_order: pinned, starred
           plugin_stars: yes
