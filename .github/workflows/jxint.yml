@@ -21,19 +21,18 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Rangoon
           plugin_repositories: yes
-          plugin_repositories_featured: MeteorDevelopment/meteor-client
           plugin_repositories_order: pinned, starred
           plugin_stars: yes
           plugin_stars_limit: 4
           repositories_forks: yes
-      - name: meteor
+      - name: network
         uses: lowlighter/metrics@latest
         with:
           filename: jxint/metrics.meteor.svg
           token: ${{ secrets.METRICS_TOKEN }}
           template: repository
-          user: MeteorDevelopment
-          repo: meteor-client
+          user: JMJAJ
+          repo: NetworkClient
           plugin_lines: yes
           plugin_followup: yes
       - name: notable
