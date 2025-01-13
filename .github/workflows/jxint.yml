@@ -1,0 +1,78 @@
+name: Metrics
+on:
+  # Schedule updates (each hour)
+  schedule: [{cron: "0 * * * *"}]
+  workflow_dispatch:
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: jxint/metrics.classic.svg
+          user: Infer2
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Rangoon
+          plugin_repositories: yes
+          plugin_repositories_featured: MeteorDevelopment/meteor-client
+          plugin_repositories_order: pinned, starred
+          plugin_stars: yes
+          plugin_stars_limit: 4
+          repositories_forks: yes
+      - name: meteor
+        uses: lowlighter/metrics@latest
+        with:
+          filename: jxint/metrics.meteor.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          template: repository
+          user: MeteorDevelopment
+          repo: meteor-client
+          plugin_lines: yes
+          plugin_followup: yes
+      - name: notable
+        uses: lowlighter/metrics@latest
+        with:
+          base: ''
+          filename: jxint/metrics.notable.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          plugin_notable: yes
+          plugin_notable_from: organization
+          plugin_notable_types: commit
+      - name: calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: jxint/metrics.plugin.isocalendar.fullyear.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ''
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+      - name: graph
+        uses: lowlighter/metrics@latest
+        with:
+          filename: jxint/metrics.plugin.graph.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_habits: yes
+          plugin_habits_charts: jxint
+          plugin_habits_charts_type: graph
+          plugin_habits_facts: no
+          plugin_habits_trim: yes
+      - name: Spotify - Top tracks
+        uses: lowlighter/metrics@latest
+        with:
+          token: NOT_NEEDED
+          filename: jxint/metrics.spoti.svg
+          base: ""
+          plugin_music: yes
+          plugin_music_mode: top
+          plugin_music_provider: spotify
+          plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
+          plugin_music_time_range: short
+          plugin_music_top_type: tracks
