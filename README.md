@@ -19,6 +19,17 @@
           <img src="./jxint/metrics.plugin.isocalendar.fullyear.svg" alt="fullyear" />
         </th>
       </tr>
-    </thead>
+    </thead>    
+    <tbody>
+      <tr>
+        <td>
+          <img src="./jxint/metrics.spoti.svg" alt="spoti" />
+        </td>
+        <td>
+          <a href="https://discord.com/users/743448459029381221">
+            <img src="https://lanyard.cnrad.dev/api/743448459029381221" alt="Jxint" />
+        </td>
+      </tr>
+    </tbody>
   </table>
 </div>
