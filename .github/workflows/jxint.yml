@@ -32,7 +32,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           template: repository
           user: JMJAJ
-          repo: GlobeCam
+          repo: DiscordWrapped
           plugin_lines: yes
           plugin_followup: yes
       - name: notable
