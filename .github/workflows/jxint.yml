@@ -32,7 +32,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           template: repository
           user: JMJAJ
-          repo: NetworkClient
+          repo: GlobeCam
           plugin_lines: yes
           plugin_followup: yes
       - name: notable
